@@ -1,0 +1,136 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GXL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yang\AppData\Local\Temp\RSP2E2D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/GXL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\yang\Desktop\Homework\gxl\GXL.c"
+]
+Creating command line "cl.exe @C:\Users\yang\AppData\Local\Temp\RSP2E2D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+GXL.c
+f:\microsoft visual studio\vc98\include\winnt.h(12) : error C2065: 'HANDLE' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(12) : error C2146: syntax error : missing ';' before identifier 'handle'
+f:\microsoft visual studio\vc98\include\winnt.h(12) : error C2065: 'handle' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(12) : warning C4013: 'GetStdHandle' undefined; assuming extern returning int
+f:\microsoft visual studio\vc98\include\winnt.h(12) : error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(13) : error C2275: 'WORD' : illegal use of this type as an expression
+        f:\microsoft visual studio\vc98\include\windef.h(144) : see declaration of 'WORD'
+f:\microsoft visual studio\vc98\include\winnt.h(13) : error C2146: syntax error : missing ';' before identifier 'word'
+f:\microsoft visual studio\vc98\include\winnt.h(13) : error C2065: 'word' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(14) : warning C4013: 'SetConsoleTextAttribute' undefined; assuming extern returning int
+f:\microsoft visual studio\vc98\include\winnt.h(18) : error C2146: syntax error : missing ';' before identifier 'handle'
+f:\microsoft visual studio\vc98\include\winnt.h(19) : error C2065: 'COORD' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(19) : error C2146: syntax error : missing ';' before identifier 'coord'
+f:\microsoft visual studio\vc98\include\winnt.h(19) : error C2065: 'coord' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(19) : error C2059: syntax error : '{'
+f:\microsoft visual studio\vc98\include\winnt.h(20) : warning C4013: 'SetConsoleCursorPosition' undefined; assuming extern returning int
+f:\microsoft visual studio\vc98\include\winnt.h(208) : error C2275: 'clock_t' : illegal use of this type as an expression
+        f:\microsoft visual studio\vc98\include\time.h(84) : see declaration of 'clock_t'
+f:\microsoft visual studio\vc98\include\winnt.h(208) : error C2146: syntax error : missing ';' before identifier 'start'
+f:\microsoft visual studio\vc98\include\winnt.h(208) : error C2065: 'end' : undeclared identifier
+f:\microsoft visual studio\vc98\include\winnt.h(209) : warning C4047: '=' : 'void (__cdecl *)()' differs in levels of indirection from 'long '
+f:\microsoft visual studio\vc98\include\winnt.h(209) : error C2106: '=' : left operand must be l-value
+f:\microsoft visual studio\vc98\include\winnt.h(209) : warning C4550: expression evaluates to a function which is missing an argument list
+f:\microsoft visual studio\vc98\include\winnt.h(225) : warning C4013: 'Sleep' undefined; assuming extern returning int
+f:\microsoft visual studio\vc98\include\winnt.h(251) : error C2113: pointer can only be subtracted from another pointer
+f:\microsoft visual studio\vc98\include\windef.h(171) : error C2061: syntax error : identifier 'LPARAM'
+f:\microsoft visual studio\vc98\include\windef.h(171) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(172) : error C2061: syntax error : identifier 'LRESULT'
+f:\microsoft visual studio\vc98\include\windef.h(172) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(204) : error C2143: syntax error : missing '{' before '*'
+f:\microsoft visual studio\vc98\include\windef.h(205) : error C2143: syntax error : missing '{' before '*'
+f:\microsoft visual studio\vc98\include\windef.h(206) : error C2061: syntax error : identifier 'HGLOBAL'
+f:\microsoft visual studio\vc98\include\windef.h(206) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(207) : error C2061: syntax error : identifier 'HLOCAL'
+f:\microsoft visual studio\vc98\include\windef.h(207) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(208) : error C2061: syntax error : identifier 'GLOBALHANDLE'
+f:\microsoft visual studio\vc98\include\windef.h(208) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(209) : error C2061: syntax error : identifier 'LOCALHANDLE'
+f:\microsoft visual studio\vc98\include\windef.h(209) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(253) : error C2061: syntax error : identifier 'HMODULE'
+f:\microsoft visual studio\vc98\include\windef.h(253) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(275) : error C2061: syntax error : identifier 'HCURSOR'
+f:\microsoft visual studio\vc98\include\windef.h(275) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(288) : error C2061: syntax error : identifier 'LONG'
+f:\microsoft visual studio\vc98\include\windef.h(289) : error C2061: syntax error : identifier 'top'
+f:\microsoft visual studio\vc98\include\windef.h(289) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(290) : error C2061: syntax error : identifier 'right'
+f:\microsoft visual studio\vc98\include\windef.h(290) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(291) : error C2061: syntax error : identifier 'bottom'
+f:\microsoft visual studio\vc98\include\windef.h(291) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(292) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\windef.h(294) : error C2143: syntax error : missing '{' before '*'
+f:\microsoft visual studio\vc98\include\windef.h(298) : error C2061: syntax error : identifier 'LONG'
+f:\microsoft visual studio\vc98\include\windef.h(299) : error C2061: syntax error : identifier 'top'
+f:\microsoft visual studio\vc98\include\windef.h(299) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(300) : error C2061: syntax error : identifier 'right'
+f:\microsoft visual studio\vc98\include\windef.h(300) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(301) : error C2061: syntax error : identifier 'bottom'
+f:\microsoft visual studio\vc98\include\windef.h(301) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(302) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\windef.h(304) : error C2143: syntax error : missing '{' before '*'
+f:\microsoft visual studio\vc98\include\windef.h(308) : error C2061: syntax error : identifier 'LONG'
+f:\microsoft visual studio\vc98\include\windef.h(309) : error C2061: syntax error : identifier 'y'
+f:\microsoft visual studio\vc98\include\windef.h(309) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(310) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\windef.h(314) : error C2061: syntax error : identifier 'LONG'
+f:\microsoft visual studio\vc98\include\windef.h(315) : error C2061: syntax error : identifier 'y'
+f:\microsoft visual studio\vc98\include\windef.h(315) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(316) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\windef.h(320) : error C2061: syntax error : identifier 'LONG'
+f:\microsoft visual studio\vc98\include\windef.h(321) : error C2061: syntax error : identifier 'cy'
+f:\microsoft visual studio\vc98\include\windef.h(321) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(322) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\windef.h(324) : error C2061: syntax error : identifier 'SIZEL'
+f:\microsoft visual studio\vc98\include\windef.h(324) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(325) : error C2143: syntax error : missing '{' before '*'
+f:\microsoft visual studio\vc98\include\windef.h(330) : error C2061: syntax error : identifier 'SHORT'
+f:\microsoft visual studio\vc98\include\windef.h(331) : error C2061: syntax error : identifier 'y'
+f:\microsoft visual studio\vc98\include\windef.h(331) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\windef.h(336) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(220) : error C2061: syntax error : identifier 'HANDLE'
+f:\microsoft visual studio\vc98\include\winbase.h(221) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(230) : error C2061: syntax error : identifier 'HANDLE'
+f:\microsoft visual studio\vc98\include\winbase.h(231) : error C2061: syntax error : identifier 'hThread'
+f:\microsoft visual studio\vc98\include\winbase.h(231) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(234) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(272) : error C2061: syntax error : identifier 'CRITICAL_SECTION'
+f:\microsoft visual studio\vc98\include\winbase.h(272) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(273) : error C2061: syntax error : identifier 'PCRITICAL_SECTION'
+f:\microsoft visual studio\vc98\include\winbase.h(273) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(274) : error C2061: syntax error : identifier 'LPCRITICAL_SECTION'
+f:\microsoft visual studio\vc98\include\winbase.h(274) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(276) : error C2061: syntax error : identifier 'CRITICAL_SECTION_DEBUG'
+f:\microsoft visual studio\vc98\include\winbase.h(276) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(277) : error C2061: syntax error : identifier 'PCRITICAL_SECTION_DEBUG'
+f:\microsoft visual studio\vc98\include\winbase.h(277) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(278) : error C2061: syntax error : identifier 'LPCRITICAL_SECTION_DEBUG'
+f:\microsoft visual studio\vc98\include\winbase.h(278) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(281) : error C2061: syntax error : identifier 'LPLDT_ENTRY'
+f:\microsoft visual studio\vc98\include\winbase.h(281) : error C2059: syntax error : ';'
+f:\microsoft visual studio\vc98\include\winbase.h(408) : error C2061: syntax error : identifier 'WCHAR'
+f:\microsoft visual studio\vc98\include\winbase.h(409) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(494) : error C2061: syntax error : identifier 'WCHAR'
+f:\microsoft visual studio\vc98\include\winbase.h(495) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(641) : error C2061: syntax error : identifier 'EXCEPTION_RECORD'
+f:\microsoft visual studio\vc98\include\winbase.h(643) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(646) : error C2061: syntax error : identifier 'HANDLE'
+f:\microsoft visual studio\vc98\include\winbase.h(649) : error C2059: syntax error : '}'
+f:\microsoft visual studio\vc98\include\winbase.h(652) : error C2061: syntax error : identifier 'HANDLE'
+f:\microsoft visual studio\vc98\include\winbase.h(652) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+GXL.obj - 102 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
